@@ -44,3 +44,12 @@ void check_and_alert(float maxThreshold, alerter_funcptr alerters[], struct Stat
         (*alerters[1])();
     }
 }
+void emailAlerter()
+{
+  emailAlertCallCount = 1;
+}
+
+void ledAlerter()
+{
+  ledAlertCallCount = 1;
+}
