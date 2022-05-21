@@ -8,7 +8,7 @@ extern int emailAlertCallCount;
 extern int ledAlertCallCount;
 struct Stats
 {
-    float Average;
-    float Min;
-    float Max;
+    float average;
+    float min;
+    float max;
 };
